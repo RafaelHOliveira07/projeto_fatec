@@ -1,0 +1,118 @@
+*, *:before, *:after { 
+    margin:0;
+    padding:0;
+    font-family: Arial,sans-serif;
+  }
+
+  @font-face {
+    font-family:'Monserrat';
+    src: url(../fonts/static/Montserrat-Medium.ttf);
+    font-weight: normal;
+}
+body{
+    
+  background-size: cover 100%;
+  background-color: #ffffff;
+ 
+  height: 100vh;
+  
+  
+}
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background-color: #ffff;
+    height: max-content;
+    margin: auto;
+    padding:1rem;
+    
+  }
+
+
+
+  .img-sobre{
+ background-image: linear-gradient(rgba(0, 0, 0, 0.600),rgba(0, 0, 0, 0.600)), url(https://www.tribunadasaguas.com.br/wp-content/uploads/2021/05/fatec-itapira.jpg);
+background-repeat: no-repeat;
+ background-size: cover;
+ background-position:center ;
+ width: 100%;
+ height: 70%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-attachment: fixed;
+    
+    
+  }
+
+  .img-sobre>h1{
+    color: #ffff;
+    font-size: clamp(2em, 1em + 7vw, 5em);
+    font-family:'Monserrat';
+    text-align: center;
+   
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.521);
+
+  }
+
+  #faixa{
+    width: 100%;
+    background-color: #1d1d1d;
+    height: 3rem;
+    color: #ffff;
+    text-align: center;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+
+  main>article {
+    max-width: 50rem;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    row-gap: 2rem;
+    padding: 2rem 1.3rem;
+    
+    
+  }
+  main>article>p{
+    
+    row-gap: 4rem;
+    text-indent: 0.7rem;
+    font-size: clamp(1em, 1em + 1vw, 1em);
+  }
+  .text-duv{
+    max-width: 50rem;
+  }
+  .text-duv h2{
+    display: flex;
+    
+    font-weight: bolder;
+    font-size: clamp(2em , 1.3em + 2vw , 2.5em) ;
+    color: #4b4b4b;
+    font-variant: small-caps;
+    
+  
+  }
+
+  
+  .text-duv p{
+    
+    font-size: medium;
+    line-height: 1.6rem;
+    
+    text-align: justify;
+    text-overflow: clip;
+    word-spacing: 0px;
+    white-space: normal;
+    text-indent: 10px;
+    
+     
+  }

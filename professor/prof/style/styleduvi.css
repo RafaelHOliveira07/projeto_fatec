@@ -1,0 +1,126 @@
+*, *:before, *:after { 
+    margin:0;
+    padding:0;
+    font-family: Arial,sans-serif;
+  }
+  @font-face {
+    font-family:'Monserrat';
+    src: url(../fonts/static/Montserrat-Medium.ttf);
+    font-weight: normal;
+}
+body{
+    
+  background-size: cover 100%;
+  background-color: #ffffff;
+ 
+  height: 100vh;
+  
+  
+}
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background-color: #ffff;
+    height: max-content;
+    margin: auto;
+    padding:1rem;
+    
+  }
+
+
+  .img-duv{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.600),rgba(0, 0, 0, 0.600)), url(../img/man-5723449_1920.jpg);
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    
+       
+       
+     }
+
+
+     .img-duv>h1{font-weight: bold;
+      font-size: clamp(2em, 1em + 7vw, 5em);
+        color: #ffff;
+        font-family:'Monserrat';
+        text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.521);
+
+
+     }
+     #faixa{
+        width: 100%;
+        background-color: #1d1d1d;
+        height: 3rem;
+        color: #ffff;
+        text-align: center;
+        padding: 1rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bolder;
+    
+      }
+      main>article {
+        max-width: 50rem;
+        flex-direction: column;
+        justify-content: center;
+       
+        display: flex;
+        row-gap: 2rem;
+        padding: 2rem 1.3rem;
+        
+        
+      }
+
+      .text-duv{
+        max-width: 50rem;
+      }
+      .text-duv h2{
+        display: flex;
+        
+        font-weight: bolder;
+        font-size: clamp( 2em , 1.3em + 2vw , 2.8em) ;
+        color: #4b4b4b;
+        font-variant: small-caps;
+        
+      
+      }
+
+      
+      .text-duv p{
+        
+        font-size: medium;
+        line-height: 1.6rem;
+        
+        text-align: justify;
+        text-overflow: clip;
+        word-spacing: 0px;
+        white-space: normal;
+        text-indent: 10px;
+        
+         
+      }
+      article>img{
+        width: 700px;
+        max-width: 100%;
+        padding: 1rem;
+        border-radius: 2rem;
+        text-align: left;
+    }
+
+    @media  (max-width: 800px) {
+        
+
+        .text-duv>p{
+            text-align: none;
+        }
+    }

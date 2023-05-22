@@ -1,0 +1,263 @@
+*, *:before, *:after { 
+    margin:0;
+    padding:0;
+    font-family: Arial,sans-serif;
+  }
+
+  body{
+    
+    background-size: cover 100%;
+    background-color: #ffffff;
+    background-attachment: fixed;
+    height: 100vh;
+    
+    
+  }
+
+#h3{
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: rgb(31, 31, 31);
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.288);
+  margin-top: 3rem;
+
+  
+
+
+
+}
+
+
+
+  .img-inicio{
+    
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.658),rgba(0, 0, 0, 0.568)) , url(../img/wepik-photo-mode-20221016-232549.png);
+
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: top;
+  }
+  
+  
+
+  #text01>ul{
+    list-style: none;
+}
+
+#text01>ul>li>h1{
+    color: #e7e7e7;
+    font-weight: bolder;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.329);
+    filter: drop-shadow( 4px 4px 13px rgba(0, 0, 0, 0.329));
+    font-size: clamp(2em, 1em + 7vw, 5em);
+    text-align: left;
+    font-family:'Monserrat';
+    
+    
+    
+    
+   
+}
+
+#text01>ul>li>p{
+    color: #ffffff;
+    font-family:'Monserrat';
+    font-size: clamp(1em, 1em + 1vw,2em);
+}
+#text01>ul>li>p>a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+   
+    
+}
+#text01{
+    
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    
+}
+
+
+#para{
+  width: 100%;
+  background-color: #1d1d1d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  height: 3rem;
+}
+
+#para>p{
+  text-align: center;
+  font-size: clamp(1em, 1em + 1vw, 1em);
+  font-weight: bolder;
+  color: #ffff;
+
+}
+
+.cursos{
+  margin: 2rem 0;
+  width: 100%;
+  display: flex;
+  height: max-content;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 5%;
+
+  
+}
+
+.cursobox{
+  margin: 2.5rem 0;
+  width: 20rem;
+  height: 20rem;
+  background-color: #1d1d1d;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.158);
+}
+
+.textc{
+  
+  box-sizing: border-box;
+  display: flex;
+  height: 7.8rem;
+  flex-direction: column;
+  width: 100%;
+  text-align: left;
+  background-color: #1d1d1d;
+  row-gap: 0.4rem;
+  padding: 0.8rem;
+  border-radius:0 0 0.9rem 0.9rem;
+
+}
+
+
+.textc h3{
+  color: white;
+  font-size: medium;
+  
+
+}
+.textc p{
+  color: #ffff;
+  font-weight: bolder;
+  font-size: smaller;
+  border-radius: 0rem 0rem 1rem 1rem;
+  height: max-content;
+  margin-bottom: 2px;
+ 
+}
+
+.second{
+  position: absolute;
+  opacity: 0;
+  backface-visibility: hidden;
+  text-align: center;
+  width: 12rem;
+  font-weight: bolder;
+  margin-bottom: 8rem;
+  color: #ffff;
+  
+}
+
+.second>p>a{
+  color: #ffff;
+  text-decoration: none;
+}
+
+
+.second>p>a:hover{
+  color: #ffff;
+  text-decoration: underline;
+}
+#gpi{
+  background:linear-gradient(rgba(146, 146, 146, 0),rgba(226, 220, 220, 0)),url(img/wepik-photo-mode-20221017-142641.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+#gpi:hover {
+  background: linear-gradient(rgba(146, 146, 146, 0.829),rgba(226, 220, 220, 0.877)),url(img/wepik-photo-mode-20221017-142641.png);
+  transition:  2s;
+  
+}
+
+#ge{
+  background:linear-gradient(rgba(146, 146, 146, 0),rgba(226, 220, 220, 0)),url(img/teamwork-3213924_640.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+
+}
+
+
+#ge:hover {
+  background: linear-gradient(rgba(146, 146, 146, 0.87),rgba(226, 220, 220, 0.842)),url(img/teamwork-3213924_640.jpg);
+  transition:  2s;
+}
+
+#dsm{
+  background:linear-gradient(rgba(104, 104, 104, 0),rgba(161, 161, 161, 0)),url(img/code-1839406_640.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+
+}
+
+#dsm:hover {
+  background: linear-gradient(rgba(146, 146, 146, 0.897),rgba(226, 220, 220, 0.877)),url(img/code-1839406_640.jpg);
+  transition:  2s;
+}
+
+#gti{
+  background:linear-gradient(rgba(146, 146, 146, 0),rgba(226, 220, 220, 0)),url(img/student-849822_640.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+
+
+}
+
+
+#gti:hover {
+  background: linear-gradient(rgba(146, 146, 146, 0.856),rgba(226, 220, 220, 0.829)),url(img/student-849822_640.jpg);
+  transition:  2s;
+}
+
+.cursobox:hover .second {
+    opacity: 1;
+    transition: opacity 0.8s;
+}
+
+.cursobox:hover  .textc {
+    opacity: 0;
+}
+@media  (max-width: 700px) {
+  .img-inicio{
+    margin-top: 3rem;
+  }
+
+  .cursos{
+    display: flex;
+    flex-direction: column;
+  }
+}
