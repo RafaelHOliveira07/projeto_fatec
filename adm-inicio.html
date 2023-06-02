@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
+    <link rel="stylesheet" href="../projeto-teste/assets/css/padrao.css">
+    <link rel="stylesheet" href="../projeto-teste/assets/css/forms.css">
+    <link rel="shortcut icon" href="../projeto-teste/img/administracao.png" type="image/x-icon">
+    <title>Adm - Inicio</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="titulo">
+            <img src="../projeto-teste/img/administracao.png" id="adm" alt="">
+            <h2>Area Administrativa</h2>
+        </div>
+    </header>
+    <div class="cabecalho-2"></div>
+    <section class="menu-adm">
+        <ul>
+            <li><a href="adm.php?dir=repeticoes&file=for">Inicio</a></li>
+            <li><a href="adm-cadastrar-prof.php">Cadastrar Professor</a></li>
+            <li>
+                <h2>Cursos</h2>
+            </li>
+            <li><a href="adm-addcursos.php">Adicionar Curso</a></li>
+            <li><a href="adm.php?dir=cursos&file=cursos-gerenciar">Gerenciar cursos</a></li>
+            <li>
+                <h2>Disciplinas</h2>
+            </li>
+            <li><a href="adm-adddisciplina.php">Adicionar Disciplina</a></li>
+            <li><a href="#">Gerenciar Disciplinas</a></li>
+            <li>
+                <h2>Editais</h2>
+            </li>
+            <li><a href="adm-adicionar.php">Adicionar Editais</a></li>
+            <li><a href="adm-geren-editais.php">Gerenciar Editais</a></li>
+            <li>
+                <h2>Participantes</h2>
+            </li>
+            <li><a href="adm-part.php">Lista de Participantes</a></li>
+        </ul>
+    </section>
+    <main class="principal">
+        <div class="central">
+            <form action="" method="post">
+                <h2>Cadastrar Professor</h2>
+                <div class="linha-form">
+                    <div class="inputs">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" placeholder="Digite o nome">
+                    </div>
+                    <div class="inputs">
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite o sobrenome">
+                    </div>
+                </div>
+                <div class="linha-form">
+                    <div class="inputs">
+                        <label for="data_nasc">Data de Nascimento</label>
+                        <input type="date" name="data_nasc" id="data_nasc">
+                    </div>
+                    <div class="inputs">
+                        <label for="email">E-mail</label>
+                        <input type="text" name="email" id="email" placeholder="Digite o e-mail">
+                    </div>
+                </div>
+                <div class="linha-form">
+                    <div class="inputs">
+                        <label for="tel">Telefone</label>
+                        <input type="tel" name="tel" id="tel" placeholder="Digite o telefone">
+                    </div>
+                    <div class="inputs">
+                        <label for="cpf">CPF</label>
+                        <input type="text" name="cpf" id="cpf" placeholder="Digite o cpf">
+                    </div>
+                </div>
+                <div class="linha-form">
+                    <div class="inputs">
+                        <label for="cep">CEP</label>
+                        <input type="text" name="cep" id="cep" placeholder="Digite o CEP">
+                    </div>
+                    <div class="inputs">
+                        <label for="endereco">Endereco</label>
+                        <input type="text" name="endereco" id="endereco" placeholder="Digite o endereço">
+                    </div>
+                </div>
+                <div class="linha-form">
+                    <div class="inputs">
+                        <label for="n_casa">Número</label>
+                        <input type="text" name="n_casa" id="n_casa" placeholder="Digite o número">
+                    </div>
+                    <div class="inputs">
+                        <label for="complemento">Complemento</label>
+                        <input type="text" name="complemento" id="complemento" placeholder="Ex: casa/apto">
+                    </div>
+                </div>
+                <div class="linha-form">
+                    <div class="inputs">
+                        <label for="cidade">Cidade</label>
+                        <input type="text" name="cidade" id="cidade" placeholder="Digite a cidade">
+                    </div>
+                    <div class="inputs">
+                        <label for="estado">Estado</label>
+                        <input type="text" name="estado" id="estado" placeholder="Digite o estado">
+                    </div>
+                </div>
+                <div class="linha-form">
+                    <div class="inputs">
+                        <label for="senha">Senha</label>
+                        <input type="text" name="senha" id="senha" placeholder="Digite a senha">
+                    </div>
+                    <div class="inputs">
+                        <label for="confirmar">Confirmar senha</label>
+                        <input type="text" name="confirmar" id="confirmar" placeholder="Confirme a senha">
+                    </div>
+                </div>
+                <button>Confirmar</button>
+            </form>
+        </div>
+    </main>
+    </section>
+</body>
+
+</html>
